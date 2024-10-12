@@ -20,5 +20,5 @@ setup(
     description="Python framework for TradingView's Lightweight Charts JavaScript library.",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/louisnw01/lightweight-charts-python',
+    url='https://github.com/chriwill/lightweight-charts-python',
 )

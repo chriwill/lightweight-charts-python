@@ -154,7 +154,7 @@ if __name__ == '__main__':
     chart.show(block=True)
 ```
 
-![PolygonChart png](https://raw.githubusercontent.com/louisnw01/lightweight-charts-python/main/docs/source/polygonchart.png)
+![PolygonChart png](https://raw.githubusercontent.com/chriwill/lightweight-charts-python/main/docs/source/polygonchart.png)
 
 ````
 

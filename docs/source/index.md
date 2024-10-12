@@ -28,7 +28,7 @@ examples/gui_examples
 reference/index
 polygon
 
-Github Repository <https://github.com/louisnw01/lightweight-charts-python>
+Github Repository <https://github.com/chriwill/lightweight-charts-python>
 ```
 
 
