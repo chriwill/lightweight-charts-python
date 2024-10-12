@@ -775,7 +775,8 @@ class AbstractChart(Candlestick, Pane):
 
     def time_scale(self, right_offset: int = 0, min_bar_spacing: float = 0.5,
                    visible: bool = True, time_visible: bool = True, seconds_visible: bool = False,
-                   border_visible: bool = True, border_color: Optional[str] = None):
+                   border_visible: bool = True, border_color: Optional[str] = None,
+                   right_bar_stays_on_scroll: bool = True):
         """
         Options for the timescale of the chart.
         """
