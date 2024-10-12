@@ -57,10 +57,14 @@ class Window:
             initial_script += f'\n{script}'
         self.script_func(initial_script)
 
-    def run_script(self, script: str, run_last: bool = False):
+    def run_script(self, script: str, run_last: bool = False, get: bool = False):
         """
         For advanced users; evaluates JavaScript within the Webview.
         """
+        if get:
+            self.run_script(f'_~_~RETURN~_~_{script}')
+            return self._return_q.get()
+
         if self.script_func is None:
             raise AttributeError("script_func has not been set")
         if self.loaded:
